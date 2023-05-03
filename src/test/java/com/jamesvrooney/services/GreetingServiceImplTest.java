@@ -16,7 +16,7 @@ class GreetingServiceImplTest {
     void helloWorldGreeting() {
         var actualGreeting = greetingService.greeting();
 
-        final String expectedGreeting = "Hello World!";
+        final String expectedGreeting = "AHello World!";
 
         assertEquals(expectedGreeting, actualGreeting);
     }
